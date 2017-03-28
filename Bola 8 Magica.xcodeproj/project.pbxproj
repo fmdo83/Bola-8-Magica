@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D9B4B91DA29B9C00196748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B4B81DA29B9C00196748 /* AppDelegate.swift */; };
+		64D9B4BB1DA29B9C00196748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B4BA1DA29B9C00196748 /* ViewController.swift */; };
+		64D9B4BE1DA29B9C00196748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D9B4BC1DA29B9C00196748 /* Main.storyboard */; };
+		64D9B4C01DA29B9C00196748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D9B4BF1DA29B9C00196748 /* Assets.xcassets */; };
+		64D9B4C31DA29B9C00196748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D9B4C11DA29B9C00196748 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D9B4B51DA29B9C00196748 /* Bola 8 Magica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bola 8 Magica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D9B4B81DA29B9C00196748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D9B4BA1DA29B9C00196748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D9B4BD1DA29B9C00196748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D9B4BF1DA29B9C00196748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D9B4C21DA29B9C00196748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D9B4C41DA29B9C00196748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D9B4B21DA29B9C00196748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D9B4AC1DA29B9C00196748 = {
+			isa = PBXGroup;
+			children = (
+				64D9B4B71DA29B9C00196748 /* Bola 8 Magica */,
+				64D9B4B61DA29B9C00196748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D9B4B61DA29B9C00196748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D9B4B51DA29B9C00196748 /* Bola 8 Magica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D9B4B71DA29B9C00196748 /* Bola 8 Magica */ = {
+			isa = PBXGroup;
+			children = (
+				64D9B4B81DA29B9C00196748 /* AppDelegate.swift */,
+				64D9B4BA1DA29B9C00196748 /* ViewController.swift */,
+				64D9B4BC1DA29B9C00196748 /* Main.storyboard */,
+				64D9B4BF1DA29B9C00196748 /* Assets.xcassets */,
+				64D9B4C11DA29B9C00196748 /* LaunchScreen.storyboard */,
+				64D9B4C41DA29B9C00196748 /* Info.plist */,
+			);
+			path = "Bola 8 Magica";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D9B4B41DA29B9C00196748 /* Bola 8 Magica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D9B4C71DA29B9C00196748 /* Build configuration list for PBXNativeTarget "Bola 8 Magica" */;
+			buildPhases = (
+				64D9B4B11DA29B9C00196748 /* Sources */,
+				64D9B4B21DA29B9C00196748 /* Frameworks */,
+				64D9B4B31DA29B9C00196748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bola 8 Magica";
+			productName = "Bola 8 Magica";
+			productReference = 64D9B4B51DA29B9C00196748 /* Bola 8 Magica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D9B4AD1DA29B9C00196748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Franco DAlessio";
+				TargetAttributes = {
+					64D9B4B41DA29B9C00196748 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 33U9DSK2TH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 64D9B4B01DA29B9C00196748 /* Build configuration list for PBXProject "Bola 8 Magica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D9B4AC1DA29B9C00196748;
+			productRefGroup = 64D9B4B61DA29B9C00196748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D9B4B41DA29B9C00196748 /* Bola 8 Magica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D9B4B31DA29B9C00196748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D9B4C31DA29B9C00196748 /* LaunchScreen.storyboard in Resources */,
+				64D9B4C01DA29B9C00196748 /* Assets.xcassets in Resources */,
+				64D9B4BE1DA29B9C00196748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D9B4B11DA29B9C00196748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D9B4BB1DA29B9C00196748 /* ViewController.swift in Sources */,
+				64D9B4B91DA29B9C00196748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D9B4BC1DA29B9C00196748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D9B4BD1DA29B9C00196748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D9B4C11DA29B9C00196748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D9B4C21DA29B9C00196748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D9B4C51DA29B9C00196748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D9B4C61DA29B9C00196748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D9B4C81DA29B9C00196748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33U9DSK2TH;
+				INFOPLIST_FILE = "Bola 8 Magica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francodalessio.Bola-8-Magica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64D9B4C91DA29B9C00196748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33U9DSK2TH;
+				INFOPLIST_FILE = "Bola 8 Magica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francodalessio.Bola-8-Magica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D9B4B01DA29B9C00196748 /* Build configuration list for PBXProject "Bola 8 Magica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D9B4C51DA29B9C00196748 /* Debug */,
+				64D9B4C61DA29B9C00196748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D9B4C71DA29B9C00196748 /* Build configuration list for PBXNativeTarget "Bola 8 Magica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D9B4C81DA29B9C00196748 /* Debug */,
+				64D9B4C91DA29B9C00196748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D9B4AD1DA29B9C00196748 /* Project object */;
+}
